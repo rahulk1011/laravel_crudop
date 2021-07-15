@@ -25,6 +25,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/change-password', 'Auth\ChangePasswordController@index')->name('change_password');
 Route::post('/change-password', 'Auth\ChangePasswordController@changepassword')->name('update_password');
 
+Route::get('/add-student', 'StudentController@add_student')->name('add_student');
+Route::post('/add-student', 'StudentController@save_student')->name('save_student');
+Route::get('/show-student', 'StudentController@show_student')->name('show_student');
+
 // Route for Admin User
 Route::group([
 		'as' => 'admin-',
