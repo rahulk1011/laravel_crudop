@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## About the Project
 
-A simple Laravel app with multi-role users, i.e Admin & Author.
+A simple Laravel project with multi-role users, i.e Admin & Author.
 The admin user can perform simple CRUD operations for student data (First Name, Last Name, Email-ID & Mobile)
