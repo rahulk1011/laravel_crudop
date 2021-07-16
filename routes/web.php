@@ -28,6 +28,9 @@ Route::post('/change-password', 'Auth\ChangePasswordController@changepassword')-
 Route::get('/add-student', 'StudentController@add_student')->name('add_student');
 Route::post('/add-student', 'StudentController@save_student')->name('save_student');
 Route::get('/show-student', 'StudentController@show_student')->name('show_student');
+Route::get('/edit-student/{id}', 'StudentController@edit_student')->name('edit_student');
+Route::post('/update-student/{id}', 'StudentController@update_student')->name('update_student');
+Route::delete('/delete-student/{id}', 'StudentController@delete_student')->name('delete_student');
 
 // Route for Admin User
 Route::group([

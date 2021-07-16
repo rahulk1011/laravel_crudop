@@ -33,7 +33,7 @@
 						<input type="email" id="defaultRegisterFormEmail" name="email" class="form-control mb-4" placeholder="E-Mail">
 						
 						<!-- Mobile number -->
-						<input type="text" id="defaultRegisterPhonePassword" name="mobile" class="form-control" placeholder="Mobile Number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+						<input type="text" id="defaultRegisterPhonePassword" name="mobile" class="form-control" placeholder="Mobile Number" aria-describedby="defaultRegisterFormPhoneHelpBlock" maxlength="10">
 						
 						<!-- Save button -->
 						<button class="btn btn-info my-4 btn-block" type="submit">Save Data</button>
